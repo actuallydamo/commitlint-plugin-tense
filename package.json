@@ -1,0 +1,17 @@
+{
+  "name": "commitlint-plugin-tense",
+  "version": "1.0.0",
+  "description": "A commitlint plugin that checks tense",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "commitlint",
+    "commitlintplugin",
+    "nlp",
+    "tense"
+  ],
+  "author": "Damien Kingsley",
+  "license": "MIT"
+}
