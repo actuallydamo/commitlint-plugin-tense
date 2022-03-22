@@ -1,7 +1,8 @@
 module.exports = {
-  extends: ['standard-with-typescript'],
+  extends: ['standard-with-typescript', 'plugin:jest/recommended'],
   parserOptions: {
     project: './tsconfig.json'
   },
-  ignorePatterns: ['/dist/']
+  ignorePatterns: ['/dist/'],
+  plugins: ['jest']
 }
