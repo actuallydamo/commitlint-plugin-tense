@@ -1,0 +1,11 @@
+.eslintrc.js
+.github/
+.husky/
+.prettierrc.js
+.releaserc
+commitlint.config.js
+coverage/
+jest.config.js
+src/
+tsconfig.build.json
+tsconfig.json
