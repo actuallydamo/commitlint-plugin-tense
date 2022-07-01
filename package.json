@@ -1,6 +1,6 @@
 {
   "name": "commitlint-plugin-tense",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "A commitlint plugin that checks tense",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
