@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/actuallydamo/commitlint-plugin-tense/compare/v1.0.0...v1.0.1) (2023-01-31)
+
+
+### Bug Fixes
+
+* add `upgrade` to allowlist ([d11a95d](https://github.com/actuallydamo/commitlint-plugin-tense/commit/d11a95d995b882c2baaae17570fcd2399114511c))
+
 # 1.0.0 (2022-07-01)
 
 
