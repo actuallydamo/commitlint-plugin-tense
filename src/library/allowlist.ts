@@ -345,6 +345,7 @@ export const allowlist = [
   'unmap',
   'unregister',
   'update',
+  'upgrade',
   'use',
   'utilise',
   'utilize',
