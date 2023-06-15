@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/actuallydamo/commitlint-plugin-tense/compare/v1.0.1...v1.0.2) (2023-06-15)
+
+
+### Bug Fixes
+
+* add `capture` to allowlist ([a3f6312](https://github.com/actuallydamo/commitlint-plugin-tense/commit/a3f63126cfb57907a6734391f8757a6a8afa745c))
+
 ## [1.0.1](https://github.com/actuallydamo/commitlint-plugin-tense/compare/v1.0.0...v1.0.1) (2023-01-31)
 
 
