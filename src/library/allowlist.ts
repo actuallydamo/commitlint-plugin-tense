@@ -40,6 +40,7 @@ export const allowlist = [
   'calculate',
   'call',
   'cancel',
+  'capture',
   'cast',
   'catch',
   'centralise',
