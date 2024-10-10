@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/actuallydamo/commitlint-plugin-tense/compare/v1.0.2...v1.0.3) (2024-10-10)
+
+
+### Bug Fixes
+
+* add `scale` to allowlist ([5d3da05](https://github.com/actuallydamo/commitlint-plugin-tense/commit/5d3da05f4baa29ea32cdda51018c6b2832a97584))
+
 ## [1.0.2](https://github.com/actuallydamo/commitlint-plugin-tense/compare/v1.0.1...v1.0.2) (2023-06-15)
 
 
