@@ -284,6 +284,7 @@ export const allowlist = [
   'sanitise',
   'sanitize',
   'save',
+  'scale',
   'schedule',
   'select',
   'send',
