@@ -1,3 +1,11 @@
+## [1.0.4](https://github.com/actuallydamo/commitlint-plugin-tense/compare/v1.0.3...v1.0.4) (2025-01-08)
+
+
+### Bug Fixes
+
+* add 'safeguard' to the allowlist ([f30f7b7](https://github.com/actuallydamo/commitlint-plugin-tense/commit/f30f7b7a167b3e311f7f091d28fa4b180e2334a8))
+* add `reconcile` to allowlist ([073ec5e](https://github.com/actuallydamo/commitlint-plugin-tense/commit/073ec5e59a1262d644410e876fc56d6f4dd42241))
+
 ## [1.0.3](https://github.com/actuallydamo/commitlint-plugin-tense/compare/v1.0.2...v1.0.3) (2024-10-10)
 
 
