@@ -281,6 +281,7 @@ export const allowlist = [
   'rip',
   'round',
   'run',
+  'safeguard',
   'sanitise',
   'sanitize',
   'save',
