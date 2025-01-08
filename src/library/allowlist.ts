@@ -237,6 +237,7 @@ export const allowlist = [
   'quiet',
   'read',
   'rearrange',
+  'reconcile',
   'record',
   'reduce',
   'refactor',
