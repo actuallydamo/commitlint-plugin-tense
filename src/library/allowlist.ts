@@ -256,6 +256,7 @@ export const allowlist = [
   'rely',
   'remove',
   'rename',
+  'render',
   'reorder',
   'reorganise',
   'reorganize',
