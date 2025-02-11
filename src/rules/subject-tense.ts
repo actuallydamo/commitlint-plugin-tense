@@ -27,7 +27,7 @@ export const subjectTense: Rule<RuleOptions> = (
     return [true]
   }
 
-  const { matches, offending } = ensureTense(subject, options)
+  const { matches, offending } = ensureTense(subject.toLowerCase(), options)
 
   const offenders = offending
     .map(({ lemma, tense }) => `${lemma}${tense === '' ? '' : ` - ${tense}`}`)
