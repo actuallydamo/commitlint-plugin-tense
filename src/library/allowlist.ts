@@ -62,6 +62,7 @@ export const allowlist = [
   'compute',
   'conditionally',
   'configure',
+  'connect',
   'consider',
   'consistently',
   'consolidate',
