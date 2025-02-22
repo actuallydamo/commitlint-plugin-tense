@@ -191,6 +191,7 @@ export const allowlist = [
   'mark',
   'mask',
   'match',
+  'mention',
   'merge',
   'migrate',
   'modify',
