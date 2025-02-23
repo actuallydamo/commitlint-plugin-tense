@@ -87,7 +87,7 @@ function getTenseFromTag (tag: TagType): string {
 
 function getVerbs (
   tags: TaggedSentence,
-  firstOnly: Boolean,
+  firstOnly: boolean,
   allowlist: string[]
 ): TaggedWord[] {
   if (firstOnly === true) {

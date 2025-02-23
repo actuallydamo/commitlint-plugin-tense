@@ -21,9 +21,6 @@
       "style": {
         "useImportType": "off",
         "useDefaultParameterLast": "off"
-      },
-      "complexity": {
-        "noBannedTypes": "off"
       }
     }
   },
