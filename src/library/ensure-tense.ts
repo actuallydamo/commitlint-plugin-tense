@@ -1,9 +1,9 @@
 import {
   Lexer,
+  TagType,
   TaggedSentence,
   TaggedWord,
-  Tagger,
-  TagType
+  Tagger
 } from 'fast-tag-pos'
 import { allowlist as defaultAllowlist } from './allowlist'
 export type Tense =

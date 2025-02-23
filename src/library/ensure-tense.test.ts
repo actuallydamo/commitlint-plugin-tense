@@ -1,5 +1,5 @@
-import { ensureTense, TenseOptions } from './ensure-tense'
 import { Lexer, Tagger } from 'fast-tag-pos'
+import { TenseOptions, ensureTense } from './ensure-tense'
 
 const defaultOptions: TenseOptions = {
   allowedTenses: ['present-imperative'],
