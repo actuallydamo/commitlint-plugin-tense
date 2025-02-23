@@ -1,4 +1,5 @@
 import parse from '@commitlint/parse'
+import { expect, test } from 'vitest'
 import { subjectTense } from './subject-tense'
 
 const messages = {

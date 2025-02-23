@@ -1,6 +1,7 @@
 import lint from '@commitlint/lint'
 import load from '@commitlint/load'
 import type { UserConfig } from '@commitlint/types'
+import { describe, expect, it } from 'vitest'
 
 import plugin from './index'
 

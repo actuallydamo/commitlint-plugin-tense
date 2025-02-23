@@ -1,4 +1,5 @@
 import { Lexer, Tagger } from 'fast-tag-pos'
+import { beforeAll, describe, expect, it, test, vitest } from 'vitest'
 import { type TenseOptions, ensureTense } from './ensure-tense'
 
 const defaultOptions: TenseOptions = {
@@ -170,7 +171,7 @@ test('false for multiple tenses not matching', () => {
 
 describe('when Tagger throw an error', () => {
   beforeAll(() => {
-    jest.spyOn(Tagger.prototype, 'tag').mockImplementation(() => {
+    vitest.spyOn(Tagger.prototype, 'tag').mockImplementation(() => {
       throw new Error('Test error')
     })
   })
@@ -186,7 +187,7 @@ describe('when Tagger throw an error', () => {
 
 describe('when Lexer throw an error', () => {
   beforeAll(() => {
-    jest.spyOn(Lexer.prototype, 'lex').mockImplementation(() => {
+    vitest.spyOn(Lexer.prototype, 'lex').mockImplementation(() => {
       throw new Error('Test error')
     })
   })
