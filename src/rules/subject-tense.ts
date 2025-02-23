@@ -13,7 +13,7 @@ interface RuleOptions {
 export const subjectTense: Rule<RuleOptions> = (
   parsed,
   when = 'always',
-  userOptions
+  userOptions?
 ) => {
   const { subject } = parsed
   const options: TenseOptions = {
