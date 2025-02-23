@@ -1,6 +1,6 @@
 import lint from '@commitlint/lint'
 import load from '@commitlint/load'
-import { UserConfig } from '@commitlint/types'
+import type { UserConfig } from '@commitlint/types'
 
 import plugin from './index'
 

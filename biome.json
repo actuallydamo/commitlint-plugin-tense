@@ -19,7 +19,6 @@
     "rules": {
       "recommended": true,
       "style": {
-        "useImportType": "off",
         "useDefaultParameterLast": "off"
       }
     }
