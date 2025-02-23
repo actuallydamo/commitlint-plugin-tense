@@ -24,7 +24,7 @@ const tenses: { [key: string]: TagType } = {
   'present-third-person': TagType.VBZ
 }
 
-function getLemmata (input: string): string[] {
+function getLemmata(input: string): string[] {
   try {
     return lexer.lex(input)
   } catch (err) {
@@ -32,7 +32,7 @@ function getLemmata (input: string): string[] {
   }
 }
 
-function getTags (lemmata: string[]): TaggedSentence {
+function getTags(lemmata: string[]): TaggedSentence {
   try {
     return tagger.tag(lemmata)
   } catch (err) {
@@ -49,7 +49,7 @@ export interface TenseOptions {
 export const ensureTense = (
   input: string,
   options: TenseOptions
-): { matches: boolean, offending: Array<{ lemma: string, tense: string }> } => {
+): { matches: boolean; offending: Array<{ lemma: string; tense: string }> } => {
   const tags = options.allowedTenses.map((tense) => tenses[tense])
   const allowlist = getAllowList(options.allowlist, options.allowedTenses)
   const lemmata = getLemmata(input)
@@ -70,7 +70,7 @@ export const ensureTense = (
   }
 }
 
-function getAllowList (
+function getAllowList(
   userAllowlist: string[],
   allowedTenses: Tense[]
 ): string[] {
@@ -80,12 +80,12 @@ function getAllowList (
   return userAllowlist
 }
 
-function getTenseFromTag (tag: TagType): string {
+function getTenseFromTag(tag: TagType): string {
   const tense = Object.keys(tenses).find((key) => tenses[key] === tag)
   return tense !== undefined ? tense : ''
 }
 
-function getVerbs (
+function getVerbs(
   tags: TaggedSentence,
   firstOnly: boolean,
   allowlist: string[]

@@ -11,7 +11,7 @@
     "ignore": []
   },
   "formatter": {
-    "enabled": false,
+    "enabled": true,
     "indentStyle": "space"
   },
   "linter": {
