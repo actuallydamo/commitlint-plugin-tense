@@ -110,7 +110,6 @@ export const allowlist = [
   'distinguish',
   'do',
   'document',
-  "don't",
   'double',
   'download',
   'drop',
