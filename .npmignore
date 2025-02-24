@@ -1,11 +1,12 @@
 .eslintrc.js
 .github/
 .husky/
-.prettierrc.js
 .releaserc
+.vscode/
+biome.json
 commitlint.config.js
 coverage/
-jest.config.js
 src/
 tsconfig.build.json
 tsconfig.json
+vitest.config.js
