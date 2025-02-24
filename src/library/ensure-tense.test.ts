@@ -13,7 +13,8 @@ const subjects = {
   pastTense: 'did cool things',
   presentImperative: 'do cool things',
   presentParticiple: 'doing cool things',
-  presentThirdPerson: 'does cool things'
+  presentThirdPerson: 'does cool things',
+  sentenceCase: 'Do cool things'
 }
 
 test('true for past-tense against past-tense', () => {
@@ -167,6 +168,14 @@ test('false for multiple tenses not matching', () => {
     allowedTenses: ['past-participle', 'present-imperative']
   })
   expect(matches).toBe(false)
+})
+
+test('true for present-imperative against sentence case present-imperative', () => {
+  const { matches } = ensureTense(subjects.sentenceCase, {
+    ...defaultOptions,
+    allowedTenses: ['present-imperative']
+  })
+  expect(matches).toBe(true)
 })
 
 describe('when Tagger throw an error', () => {

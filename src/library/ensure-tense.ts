@@ -52,7 +52,7 @@ export const ensureTense = (
 ): { matches: boolean; offending: Array<{ lemma: string; tense: string }> } => {
   const tags = options.allowedTenses.map((tense) => tenses[tense])
   const allowlist = getAllowList(options.allowlist, options.allowedTenses)
-  const lemmata = getLemmata(input)
+  const lemmata = getLemmata(input.toLowerCase())
   const tagged = getTags(lemmata)
   const verbs = getVerbs(tagged, options.firstOnly, allowlist)
 

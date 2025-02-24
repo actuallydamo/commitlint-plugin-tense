@@ -10,7 +10,8 @@ const messages = {
   pastTense: 'test: did cool things',
   presentImperative: 'test: do cool things',
   presentParticiple: 'test: doing cool things',
-  presentThirdPerson: 'test: does cool things'
+  presentThirdPerson: 'test: does cool things',
+  sentenceCase: 'test: Do cool things'
 }
 
 const parsed = {
@@ -21,7 +22,8 @@ const parsed = {
   pastTense: parse(messages.pastTense),
   presentImperative: parse(messages.presentImperative),
   presentParticiple: parse(messages.presentParticiple),
-  presentThirdPerson: parse(messages.presentThirdPerson)
+  presentThirdPerson: parse(messages.presentThirdPerson),
+  sentenceCase: parse(messages.sentenceCase)
 }
 
 test('with empty subject should succeed and no match', async () => {
@@ -54,6 +56,28 @@ test('true for past-tense against past-tense', async () => {
     allowedTenses: ['past-tense']
   })
   expect(matches).toBe(true)
+})
+
+test('true for present-imperative against sentence case present-imperative', async () => {
+  const [matches] = await subjectTense(
+    await parsed.sentenceCase,
+    'always',
+    {
+      allowedTenses: ['present-imperative']
+    }
+  )
+  expect(matches).toBe(true)
+})
+
+test('false for never present-imperative against sentence case present-imperative', async () => {
+  const [matches] = await subjectTense(
+    await parsed.sentenceCase,
+    'never',
+    {
+      allowedTenses: ['present-imperative']
+    }
+  )
+  expect(matches).toBe(false)
 })
 
 test('true for present-imperative against present-imperative', async () => {
