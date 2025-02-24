@@ -1,3 +1,11 @@
+## [1.0.6](https://github.com/actuallydamo/commitlint-plugin-tense/compare/v1.0.5...v1.0.6) (2025-02-24)
+
+
+### Bug Fixes
+
+* expand `don't` for lexer ([2e01732](https://github.com/actuallydamo/commitlint-plugin-tense/commit/2e01732e7e88ac744a83ba4e9ff860e459b8808a))
+* make the plugin case-insensitive ([b88127c](https://github.com/actuallydamo/commitlint-plugin-tense/commit/b88127cb5f4e866a47f44bf51ecf39132db19415))
+
 ## [1.0.5](https://github.com/actuallydamo/commitlint-plugin-tense/compare/v1.0.4...v1.0.5) (2025-02-23)
 
 
