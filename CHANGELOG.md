@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/actuallydamo/commitlint-plugin-tense/compare/v1.0.6...v1.0.7) (2025-08-28)
+
+
+### Bug Fixes
+
+* add US `normalize` to allowlist ([056ef2f](https://github.com/actuallydamo/commitlint-plugin-tense/commit/056ef2f9765a99659e27feb78d819d1aa73ddcbd)), closes [#6](https://github.com/actuallydamo/commitlint-plugin-tense/issues/6)
+
 ## [1.0.6](https://github.com/actuallydamo/commitlint-plugin-tense/compare/v1.0.5...v1.0.6) (2025-02-24)
 
 
