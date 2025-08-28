@@ -1,9 +1,9 @@
 import {
   Lexer,
-  TagType,
   type TaggedSentence,
   type TaggedWord,
-  Tagger
+  Tagger,
+  TagType
 } from 'fast-tag-pos'
 import { allowlist as defaultAllowlist } from './allowlist'
 export type Tense =
@@ -27,7 +27,7 @@ const tenses: { [key: string]: TagType } = {
 function getLemmata(input: string): string[] {
   try {
     return lexer.lex(input)
-  } catch (err) {
+  } catch (_err) {
     return []
   }
 }
@@ -35,7 +35,7 @@ function getLemmata(input: string): string[] {
 function getTags(lemmata: string[]): TaggedSentence {
   try {
     return tagger.tag(lemmata)
-  } catch (err) {
+  } catch (_err) {
     return []
   }
 }
@@ -52,7 +52,7 @@ export const ensureTense = (
 ): { matches: boolean; offending: Array<{ lemma: string; tense: string }> } => {
   const tags = options.allowedTenses.map((tense) => tenses[tense])
   const allowlist = getAllowList(options.allowlist, options.allowedTenses)
-  const lemmata = getLemmata(input.toLowerCase().replace("don't", "do not"))
+  const lemmata = getLemmata(input.toLowerCase().replace("don't", 'do not'))
   const tagged = getTags(lemmata)
   const verbs = getVerbs(tagged, options.firstOnly, allowlist)
 

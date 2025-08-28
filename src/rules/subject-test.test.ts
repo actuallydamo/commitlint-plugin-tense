@@ -59,24 +59,16 @@ test('true for past-tense against past-tense', async () => {
 })
 
 test('true for present-imperative against sentence case present-imperative', async () => {
-  const [matches] = await subjectTense(
-    await parsed.sentenceCase,
-    'always',
-    {
-      allowedTenses: ['present-imperative']
-    }
-  )
+  const [matches] = await subjectTense(await parsed.sentenceCase, 'always', {
+    allowedTenses: ['present-imperative']
+  })
   expect(matches).toBe(true)
 })
 
 test('false for never present-imperative against sentence case present-imperative', async () => {
-  const [matches] = await subjectTense(
-    await parsed.sentenceCase,
-    'never',
-    {
-      allowedTenses: ['present-imperative']
-    }
-  )
+  const [matches] = await subjectTense(await parsed.sentenceCase, 'never', {
+    allowedTenses: ['present-imperative']
+  })
   expect(matches).toBe(false)
 })
 

@@ -1,6 +1,6 @@
 import { Lexer, Tagger } from 'fast-tag-pos'
 import { beforeAll, describe, expect, it, test, vitest } from 'vitest'
-import { type TenseOptions, ensureTense } from './ensure-tense'
+import { ensureTense, type TenseOptions } from './ensure-tense'
 
 const defaultOptions: TenseOptions = {
   allowedTenses: ['present-imperative'],
@@ -15,7 +15,7 @@ const subjects = {
   presentParticiple: 'doing cool things',
   presentThirdPerson: 'does cool things',
   sentenceCase: 'Do cool things',
-  negatedDo: 'don\'t cool things'
+  negatedDo: "don't cool things"
 }
 
 test('true for past-tense against past-tense', () => {
@@ -179,7 +179,7 @@ test('true for present-imperative against sentence case present-imperative', () 
   expect(matches).toBe(true)
 })
 
-test('true for present-imperative against don\'t', () => {
+test("true for present-imperative against don't", () => {
   const { matches } = ensureTense(subjects.negatedDo, {
     ...defaultOptions,
     allowedTenses: ['present-imperative']

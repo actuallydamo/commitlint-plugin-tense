@@ -1,9 +1,9 @@
 import message from '@commitlint/message'
 import type { Rule } from '@commitlint/types'
 import {
+  ensureTense,
   type Tense,
-  type TenseOptions,
-  ensureTense
+  type TenseOptions
 } from '../library/ensure-tense'
 
 const negated = (when?: string): boolean => when === 'never'
