@@ -225,6 +225,7 @@ export const allowlist = [
   'mount',
   'move',
   'name',
+  'normalize',
   'notify',
   'nuke',
   'null',
