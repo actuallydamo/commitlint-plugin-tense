@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/actuallydamo/commitlint-plugin-tense/compare/v1.0.7...v1.0.8) (2025-09-08)
+
+
+### Bug Fixes
+
+* update allowlist ([a1212ee](https://github.com/actuallydamo/commitlint-plugin-tense/commit/a1212eea2726ee3c5d774fdbf9cd4db0120bff2e)), closes [#7](https://github.com/actuallydamo/commitlint-plugin-tense/issues/7)
+
 ## [1.0.7](https://github.com/actuallydamo/commitlint-plugin-tense/compare/v1.0.6...v1.0.7) (2025-08-28)
 
 
