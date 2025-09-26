@@ -1,3 +1,10 @@
+## [1.0.9](https://github.com/actuallydamo/commitlint-plugin-tense/compare/v1.0.8...v1.0.9) (2025-09-26)
+
+
+### Bug Fixes
+
+* add US `recognize` to allowlist ([d560c9d](https://github.com/actuallydamo/commitlint-plugin-tense/commit/d560c9d02abec39b4992c471f9a6eae7d0225c41)), closes [#9](https://github.com/actuallydamo/commitlint-plugin-tense/issues/9)
+
 ## [1.0.8](https://github.com/actuallydamo/commitlint-plugin-tense/compare/v1.0.7...v1.0.8) (2025-09-08)
 
 
