@@ -287,6 +287,7 @@ export const allowlist = [
   'read',
   'reallocate',
   'rearrange',
+  'recognize',
   'reconcile',
   'record',
   'redact',
