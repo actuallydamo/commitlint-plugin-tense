@@ -1,7 +1,7 @@
 .eslintrc.js
 .github/
 .husky/
-.releaserc
+.releaserc.json
 .vscode/
 biome.json
 commitlint.config.js
