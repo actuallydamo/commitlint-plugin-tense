@@ -19,7 +19,7 @@
   "author": "Damien Kingsley",
   "license": "MIT",
   "devDependencies": {
-    "@biomejs/biome": "2.2.4",
+    "@biomejs/biome": "2.4.10",
     "@commitlint/cli": "^20.0.0",
     "@commitlint/config-conventional": "^20.0.0",
     "@commitlint/lint": "^20.0.0",
