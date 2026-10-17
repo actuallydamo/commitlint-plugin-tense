@@ -114,6 +114,7 @@ export const allowlist = [
   'dispatch',
   'display',
   'distinguish',
+  'divide',
   'do',
   'document',
   'double',
