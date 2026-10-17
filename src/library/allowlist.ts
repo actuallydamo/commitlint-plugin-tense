@@ -21,6 +21,7 @@ export const allowlist = [
   'append',
   'apply',
   'approve',
+  'arrange',
   'assert',
   'assign',
   'assume',
