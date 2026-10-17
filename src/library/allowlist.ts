@@ -118,6 +118,7 @@ export const allowlist = [
   'document',
   'double',
   'download',
+  'draw',
   'drive',
   'drop',
   'dry',
