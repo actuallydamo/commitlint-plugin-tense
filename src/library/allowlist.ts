@@ -256,6 +256,7 @@ export const allowlist = [
   'placate',
   'place',
   'platform',
+  'play',
   'plug',
   'point',
   'polish',
