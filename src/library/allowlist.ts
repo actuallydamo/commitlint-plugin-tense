@@ -272,6 +272,8 @@ export const allowlist = [
   'preserve',
   'prevent',
   'print',
+  'prioritise',
+  'prioritize',
   'probe',
   'process',
   'program',
