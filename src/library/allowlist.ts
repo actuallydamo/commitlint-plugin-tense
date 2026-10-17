@@ -412,6 +412,7 @@ export const allowlist = [
   'tidy',
   'tidyup',
   'tighten',
+  'throw',
   'touch',
   'trace',
   'track',
