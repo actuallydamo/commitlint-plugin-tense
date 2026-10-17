@@ -80,6 +80,7 @@ export const allowlist = [
   'convert',
   'cope',
   'copy',
+  'cover',
   'correct',
   'count',
   'create',
