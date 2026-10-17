@@ -232,6 +232,7 @@ export const allowlist = [
   'merge',
   'migrate',
   'mock',
+  'model',
   'modify',
   'mount',
   'move',
