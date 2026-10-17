@@ -408,6 +408,7 @@ export const allowlist = [
   'tag',
   'take',
   'teach',
+  'tear',
   'tell',
   'test',
   'tidy',
