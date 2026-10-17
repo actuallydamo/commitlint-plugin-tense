@@ -169,6 +169,7 @@ export const allowlist = [
   'group',
   'guard',
   'handle',
+  'hardcode',
   'have',
   'hide',
   'hold',
