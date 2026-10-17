@@ -214,6 +214,7 @@ export const allowlist = [
   'log',
   'login',
   'look',
+  'loosen',
   'lower',
   'maintain',
   'make',
