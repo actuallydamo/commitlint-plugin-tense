@@ -1,3 +1,23 @@
+## [1.0.11](https://github.com/actuallydamo/commitlint-plugin-tense/compare/v1.0.10...v1.0.11) (2026-10-17)
+
+
+### Bug Fixes
+
+* add 'arrange' to allowlist ([9bc7fcb](https://github.com/actuallydamo/commitlint-plugin-tense/commit/9bc7fcb0fc6501a2528394fe9e541b204f209e98))
+* add 'capitalise/capitalize' to allowlist ([8ecd294](https://github.com/actuallydamo/commitlint-plugin-tense/commit/8ecd294f43940a8c752b8e295a079ab42f018e38))
+* add 'cover' to allowlist ([c7058f5](https://github.com/actuallydamo/commitlint-plugin-tense/commit/c7058f50a63605f3436234940b16b407bbc9d004))
+* add 'divide' to allowlist ([5417af2](https://github.com/actuallydamo/commitlint-plugin-tense/commit/5417af2bd319066def79b0ee90af10e38bc15c4c))
+* add 'draw' to allowlist ([296c864](https://github.com/actuallydamo/commitlint-plugin-tense/commit/296c8648b2f69cad519a5449346f533d8a51462f))
+* add 'drive' to allowlist ([0b4cae4](https://github.com/actuallydamo/commitlint-plugin-tense/commit/0b4cae4df742b3a6214832d4a1a7cad75db63f65))
+* add 'hardcode' to allowlist ([c03e245](https://github.com/actuallydamo/commitlint-plugin-tense/commit/c03e2454e3201d707a260762c1294d81d1a8dfdf))
+* add 'loosen' to allowlist ([a66313f](https://github.com/actuallydamo/commitlint-plugin-tense/commit/a66313ffb5f8e23256eb3a54dc88e721887dc001))
+* add 'model' to allowlist ([33351c6](https://github.com/actuallydamo/commitlint-plugin-tense/commit/33351c6ecaf17dc4d05bca26b9423b6d081396c2))
+* add 'play' to allowlist ([96b3268](https://github.com/actuallydamo/commitlint-plugin-tense/commit/96b32684ed303ad66e0ddb95c709331157d0b51d))
+* add 'prioritise/prioritize' to allowlist ([f558086](https://github.com/actuallydamo/commitlint-plugin-tense/commit/f55808686f204569ead7b8277c715393b265f0b9))
+* add 'tear' to allowlist ([4830d62](https://github.com/actuallydamo/commitlint-plugin-tense/commit/4830d626b4ee5ed3e9723d3c4cb019f9af453208))
+* add 'throw' to allowlist ([b9663e9](https://github.com/actuallydamo/commitlint-plugin-tense/commit/b9663e980bc7414360f4a106fca05b1feacc8b4a))
+* add 'time' to allowlist ([02db2e6](https://github.com/actuallydamo/commitlint-plugin-tense/commit/02db2e6778f6eee358b1e908e576786a15f91b25))
+
 ## [1.0.10](https://github.com/actuallydamo/commitlint-plugin-tense/compare/v1.0.9...v1.0.10) (2026-04-05)
 
 ## [1.0.9](https://github.com/actuallydamo/commitlint-plugin-tense/compare/v1.0.8...v1.0.9) (2025-09-26)
