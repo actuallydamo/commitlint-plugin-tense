@@ -46,6 +46,8 @@ export const allowlist = [
   'calculate',
   'call',
   'cancel',
+  'capitalise',
+  'capitalize',
   'capture',
   'cast',
   'catalog',
