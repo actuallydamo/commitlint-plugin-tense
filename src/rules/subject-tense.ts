@@ -1,4 +1,3 @@
-import message from '@commitlint/message'
 import type { Rule } from '@commitlint/types'
 import {
   ensureTense,
@@ -41,10 +40,10 @@ export const subjectTense: Rule<RuleOptions> = (
 
   return [
     negated(when) ? !matches : matches,
-    message([
+    [
       'tense of subject must',
       negated(when) ? 'not' : null,
       `be ${list}. Words in other tenses: ${offenders}`
-    ])
+    ].filter(Boolean).join(' ')
   ]
 }
