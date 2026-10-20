@@ -22,5 +22,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
           check-latest: true
           cache: "npm"
+      - name: Use npm 12
+        run: npm install --global npm@12
       - run: npm ci
       - run: npm run coverage

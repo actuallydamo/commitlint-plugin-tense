@@ -6,6 +6,7 @@
 biome.json
 commitlint.config.js
 coverage/
+mise.toml
 src/
 test/
 tsconfig.build.json

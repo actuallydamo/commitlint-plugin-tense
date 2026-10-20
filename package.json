@@ -40,6 +40,9 @@
   "peerDependencies": {
     "@commitlint/lint": ">=7.6.0"
   },
+  "overrides": {
+    "braces": "npm:@dieub/braces-depth-guard@3.0.3-pn.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/actuallydamo/commitlint-plugin-tense.git"
