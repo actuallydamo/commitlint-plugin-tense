@@ -7,6 +7,7 @@ biome.json
 commitlint.config.js
 coverage/
 src/
+test/
 tsconfig.build.json
 tsconfig.json
-vitest.config.js
+vitest.config.mjs
