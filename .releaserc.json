@@ -5,6 +5,7 @@
     ["@semantic-release/commit-analyzer", {
       "preset": "angular",
       "releaseRules": [
+        { "scope": "deps-dev", "release": false },
         { "type": "build", "scope": "deps", "release": "patch" }
       ]
     }],

@@ -1,0 +1,11 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+    # Configure security update commits without enabling routine version PRs.
+    open-pull-requests-limit: 0
+    commit-message:
+      prefix: build(deps)
+      prefix-development: build(deps-dev)
